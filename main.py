@@ -1,6 +1,7 @@
 # For tutorial on FastAPI
 # See https://fastapi.tiangolo.com/tutorial/first-steps/
 from fastapi import FastAPI
+import csv
 
 # get country data from csv file  
 filename = "world_table_country.csv"
